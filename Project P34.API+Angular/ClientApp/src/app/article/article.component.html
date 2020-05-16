@@ -1,0 +1,8 @@
+<div class="container text-center container-bg">
+  <h1 class="article-header">{{listOfData[id]?.title}}</h1>
+  <img style="width: auto; height: 500px;" [src]="listOfData[id]?.imageUrl" alt="">
+  
+  <p class="article-text">{{listOfData[id]?.articleText}}</p>
+  <app-comment-show></app-comment-show>
+  <app-comment-write></app-comment-write>
+</div>

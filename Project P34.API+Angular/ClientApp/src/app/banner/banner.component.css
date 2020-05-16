@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.item{
+    overflow: hidden;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    transition: all .5s;
+    -webkit-box-shadow: inset 0px -62px 118px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px -62px 118px -20px rgba(0,0,0,0.75);
+    box-shadow: inset 0px -62px 118px -20px rgba(0,0,0,0.75);
+}
+
+.outer{
+    overflow: hidden;
+}
+
+.outer:hover .item{
+    transform: scale(1.05);
+    color: orange;
+    
+}
+
+
+#item-header{
+    margin-top: 160px;
+    margin-left: 12px;
+    font-size: 13px;
+    padding-left: 2px;
+    color: rgb(44, 42, 44);
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.5);
+    width: 17%;
+    position	: absolute;
+	top	: -35px;
+    
+}
+
+#item-text{
+    margin-left: 12px;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    -webkit-text-stroke: 0.1px black;
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 1);
+}
+
+.x{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.banner-list{
+    background-color:rgba(0, 0, 0, 0.199);
+    border-radius: 15px;
+}
+
+.img-news{
+    width: 100%;
+    position: relative;
+    height: 200px;
+}
+
+
+

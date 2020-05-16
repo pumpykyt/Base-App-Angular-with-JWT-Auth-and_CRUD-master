@@ -1,0 +1,34 @@
+.text-input{
+    margin: 10px;
+}
+
+.news-add-header{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.image-url{
+    width: 450px;
+}
+
+.main-article{
+    color: white;
+    font-weight: bold;
+    outline: black;
+}
+
+.add-news-article{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+textarea{
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 200px;
+}

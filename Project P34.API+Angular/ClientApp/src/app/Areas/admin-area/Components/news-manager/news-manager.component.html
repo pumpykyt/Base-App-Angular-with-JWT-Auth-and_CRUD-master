@@ -1,0 +1,15 @@
+<div class="text-center">
+  <form class="add-news-article">
+    <h1 class="main-article">Add article/block news</h1>
+    <h2 class="news-add-header">Title</h2>
+    <input type="text" class="text-input" nzInput [(ngModel)] = "newsObj.title" name="title">
+    <h2 class="news-add-header">Image url</h2>
+    <input type="url" class="text-input image-url" nzInput [(ngModel)] = "newsObj.imageurl" name="url">
+    <h2 class="news-add-header">Article text</h2>
+    <textarea type="text" class="text-input" nzInput [(ngModel)] = "newsObj.articletext" name="text" ></textarea>
+    <hr>
+    <button nz-button nzType = "primary" (click)="addNews()">ADD</button>
+  </form>
+
+</div>
+

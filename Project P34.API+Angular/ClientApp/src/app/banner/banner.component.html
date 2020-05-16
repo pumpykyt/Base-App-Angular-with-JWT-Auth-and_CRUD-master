@@ -1,0 +1,12 @@
+<div class="banner-list container">
+    <div class="row">
+        <div *ngFor="let item of listOfData" [routerLink]="['/news', item.id]" class="outer x col-md-3">
+            <div class="item">
+                <img class="img-news" [src]="item?.imageUrl" alt="">
+                <div id="item-header">SPORT</div>
+                <div id="item-text">{{item?.title}}</div>
+            </div>
+        </div>
+
+    </div>  
+</div>
